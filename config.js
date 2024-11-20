@@ -23,11 +23,10 @@ const URL = process.env.URL || "https://t.me/itzmecp";
 const AUDIO_DATA = process.env.AUDIO_DATA || "Interworld;Itzmecp;https://i.ibb.co/5kmL7y2/file-2072.jpg";
 const STICKER_DATA = process.env.STICKER_DATA || "Interworld;Itzmecp";
 const WORK_TYPE = process.env.WORK_TYPE || 'public';
-const DATABASE_URL = process.env.DATABASE_URL || "./lib/database.db";
+const DATABASE_URL = process.env.DATABASE_URL || "mongodb+srv://AnimeFlix:Itzmecp@cluster0.qxdxy.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
 const HEROKU_APP_NAME = process.env.HEROKU_APP_NAME || "";
 const HEROKU_API_KEY = process.env.HEROKU_API_KEY || "";
 const KOYEB_API_KEY = process.env.KOYEB_API_KEY || "";
-
 
 
 
